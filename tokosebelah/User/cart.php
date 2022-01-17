@@ -163,7 +163,7 @@ if (isset($_GET["action"])) {
                             <dd class="text-right text-danger ml-3">FREE</dd>
                         </dl>
 
-                        <a href="payment.php" class="btn  btn-success btn-square btn-main mt-2" data-abc="true">Continue Shopping</a>
+                        <a href="payment.php" class="btn  btn-success btn-square btn-main mt-2" data-abc="true">Checkout</a>
                         <a href="home.php" class="btn  btn-Dark btn-square btn-main mt-2" data-abc="true">Continue Shopping</a>
                     </div>
                 </div>
