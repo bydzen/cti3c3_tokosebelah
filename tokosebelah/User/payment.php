@@ -1,6 +1,6 @@
 <?php
 include '../database/session.php';
-include '../config/header-user.php';
+include '../Config/header-user.php';
 
 error_reporting(0);
 
