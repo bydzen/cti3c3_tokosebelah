@@ -1,0 +1,62 @@
+body {
+  font-family: "Poppins", sans-serif;
+  font-weight: 300;
+  background-color: #22272b;
+  color: white;
+}
+
+.order {
+  margin-top: 70px;
+}
+
+.table {
+  font-family: "Poppins", sans-serif;
+}
+table.table {
+  color: white;
+}
+
+table thead {
+  background-color: #ff8f66;
+}
+
+span.navbar-brand {
+  font-family: "Reenie Beanie", cursive;
+  font-size: 70px;
+  color: white;
+}
+
+nav.navbar {
+  background-color: #22272b;
+}
+
+.menu a {
+  color: white;
+  text-decoration: none;
+  font-weight: 500;
+}
+
+a.active {
+  color: #ff8f66;
+}
+
+.mainmenu a {
+  margin-right: 15px;
+}
+
+.mainmenu {
+  margin-right: 50px;
+}
+
+.accountcart a {
+  margin-right: 15px;
+}
+
+table.table {
+  margin-top: 25px;
+}
+
+h2.order {
+  color: #ff8f66;
+  font-weight: 600;
+}

@@ -1,0 +1,324 @@
+* {
+    text-decoration: none;
+    margin: 0px;
+    padding: 0px;
+}
+body {
+    margin: 0px;
+    padding: 0px;
+    height : 1080px;
+    font-family: 'Poppins', sans-serif;
+    position: relative;
+}
+
+.wrapper {
+    width: 1920px;
+    margin: auto;
+    position: relative;
+}
+.logo {
+    margin-left: 60px;
+    margin-top: 10px;
+    font-size: 70px;
+    font-weight: 400;
+    float: left;
+    font-family: 'Reenie Beanie', cursive;
+    color: #ffffff;
+    float: left;
+}
+.menu {
+    float: right;
+}
+nav {
+    width: 100%;
+    margin: auto;
+    display: flex;
+    line-height: 80px;
+    position: sticky;
+    position: -webkit-sticky; 
+    top: 0;
+    background: #22272B;
+    z-index: 1;
+    box-shadow: 3px 1px rgb(255, 255, 255);
+}
+nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    margin-right: 125px;
+}
+nav ul li {
+    float: left;
+}
+nav ul li a {
+    color: #FFFFFF;
+    text-align: center;
+    padding: 0px 16px 0px 32px;
+    text-decoration: none;
+    font-family: 'Poppins', sans-serif;
+    font-size: 14px;
+}
+nav ul li a:hover {
+    color: #DA7E5C;
+}
+
+/* Shipping Addres */
+.container-fluid{
+    background-color: #22272B;
+    height: 960px;
+}
+.title{
+    margin-left: 160px;
+    margin-top: 50px;
+    font-size: 32px;
+	font-weight: 600;
+	font-family: 'Poppins', sans-serif;
+    color: #FFFFFF;
+}
+
+.grid > ul > li{
+    float: left;
+    list-style-type: none;
+}
+.form{
+    margin-top: 50px;
+    margin-left: 180px;
+    width: 600px;
+}
+.form > h1{
+    padding-top: 20px;
+    font-size: 24px;
+	font-weight: 400;
+	font-family: 'Poppins', sans-serif;
+    color: #ffffff;
+}
+.form > input{
+    margin-top: 10px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 20px;
+    border-radius: 80px;
+    width: 590px;
+    height: 60px;
+    border:solid 1px #FF8F66;
+    background-color: #22272B;
+    color: #D9DCE5;
+	font-family: 'Poppins', sans-serif;
+    font-size: 16px;
+}
+
+.name > ul > li{
+    float: left;
+    margin-bottom: 20px;
+}
+.name > ul > li > h1{
+    padding-top: 20px;
+    font-size: 24px;
+	font-weight: 400;
+	font-family: 'Poppins', sans-serif;
+    color: #ffffff;
+}
+.name > ul > li > input{
+    margin-top: 10px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 20px;
+    border-radius: 80px;
+    width: 275px;
+    height: 60px;
+    border:solid 1px #FF8F66;
+    background-color: #22272B;
+    color: #D9DCE5;
+	font-family: 'Poppins', sans-serif;
+    font-size: 16px;
+}
+.last{
+    margin-left: 40px;
+}
+
+
+.data > ul > li{
+    float: left;
+    margin-bottom: 20px;
+}
+.data > ul > li > h1{
+    padding-top: 20px;
+    font-size: 24px;
+	font-weight: 400;
+	font-family: 'Poppins', sans-serif;
+    color: #ffffff;
+}
+.data > ul > li > input{
+    margin-top: 10px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 20px;
+    border-radius: 80px;
+    width: 275px;
+    height: 60px;
+    border:solid 1px #FF8F66;
+    background-color: #22272B;
+    color: #D9DCE5;
+	font-family: 'Poppins', sans-serif;
+    font-size: 16px;
+}
+.city{
+    margin-left: 40px;
+}
+
+.location > ul > li{
+    float: left;
+    margin-bottom: 20px;
+}
+.location > ul > li > h1{
+    padding-top: 20px;
+    font-size: 24px;
+	font-weight: 400;
+	font-family: 'Poppins', sans-serif;
+    color: #ffffff;
+}
+.location > ul > li > input{
+    margin-top: 10px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 20px;
+    border-radius: 80px;
+    width: 275px;
+    height: 60px;
+    border:solid 1px #FF8F66;
+    background-color: #22272B;
+    color: #D9DCE5;
+	font-family: 'Poppins', sans-serif;
+    font-size: 16px;
+}
+.country{
+    margin-left: 40px;
+}
+
+.postalcode{
+    margin-bottom: 20px;
+}
+.postalcode > h1{
+    padding-top: 20px;
+    font-size: 24px;
+	font-weight: 400;
+	font-family: 'Poppins', sans-serif;
+    color: #ffffff;
+}
+.postalcode > input{
+    margin-top: 10px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 20px;
+    border-radius: 80px;
+    width: 275px;
+    height: 60px;
+    border:solid 1px #FF8F66;
+    background-color: #22272B;
+    color: #D9DCE5;
+	font-family: 'Poppins', sans-serif;
+    font-size: 16px;
+}
+.space{
+    margin-left: 50px;
+    margin-right: 50px;
+    margin-top: 50px;
+    width: 2px;
+    background-color: #FFFFFF;
+    border-radius: 0.25px;
+    height: 670px;
+}
+.title1{
+    margin-top: 70px;
+    font-size: 24px;
+	font-weight: 600;
+	font-family: 'Poppins', sans-serif;
+    color: #FFFFFF;
+}
+.space1{
+    margin-top: 20px;
+    width: 500px;
+    background-color: #FFFFFF;
+    border-radius: 0.25px;
+    height: 2px;
+}
+.subtotal > ul > li{
+    float: left;
+    margin-top: 65px;
+}
+.subtotal > ul > li > h3{
+    font-size: 18px;
+	font-weight: 300;
+	font-family: 'Poppins', sans-serif;
+    color: #ffffff;
+}
+.detail > ul > li{
+    float: left;
+    margin-top: 55px;
+}
+.detail > ul > li > h3{
+    font-size: 18px;
+	font-weight: 300;
+	font-family: 'Poppins', sans-serif;
+    color: #ffffff;
+}
+.price{
+    margin-left: 300px;
+}
+.price1{
+    margin-left: 313px;
+}
+.price2{
+    margin-left: 380px;
+}
+.space2{
+    margin-top: 55px;
+    width: 500px;
+    background-color: #FFFFFF;
+    border-radius: 0.25px;
+    height: 2px;
+}
+.totalprice > ul > li{
+    float: left;
+    margin-top: 55px;
+}
+.totalprice> ul > li > h1{
+    font-size: 30px;
+	font-weight: 400;
+	font-family: 'Poppins', sans-serif;
+    color: #ffffff;
+}
+.totprice{
+    margin-left: 230px;
+}
+.grid > ul > li > button.btn-checkout{
+    margin-top: 50px;
+}
+.btn-checkout{
+    background: #FF8F66;
+    border-radius: 20px;
+    border:solid 1px #FF8F66;
+    margin-top: 20px;
+    padding: 8px 25px;
+    color: #FFFFFF;
+    cursor: pointer;
+    font-size: 20px;
+    font-weight: 400;
+    width: 500px;
+    height: 80px;
+}
+.btn-checkout:hover{
+    background: #DE805D;
+    border:solid 1px #DE805D;
+    border-radius: 20px;
+    margin-top: 20px;
+    padding: 8px 25px;
+    color: #FFFFFF;
+    cursor: pointer;
+    font-size: 20px;
+    font-weight: 400;
+    width: 500px;
+    height: 80px;
+    
+}

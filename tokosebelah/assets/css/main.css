@@ -1,0 +1,171 @@
+body,
+button {
+  font-family: "Poppins", sans-serif;
+  margin: 0;
+  padding: 0;
+  /* overflow: ; */
+  color: white;
+  letter-spacing: 2px;
+}
+
+html a {
+  text-decoration: none;
+  color: #ff8f66;
+}
+
+.container {
+  /* height: 100vh; */
+  display: flex;
+  flex-direction: row;
+}
+
+.welcomeLogin {
+  max-width: 60%;
+}
+
+.loginKiri {
+  padding-top: 7%;
+  background-color: #22272b;
+  width: 50%;
+}
+
+.loginKiri .welcomeLogin {
+  padding-left: 15%;
+}
+
+.label {
+  margin-bottom: 20px;
+}
+
+.form-check {
+  margin-bottom: 20px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.form-control {
+  display: flex;
+  margin-bottom: 30px;
+  margin-top: 15px;
+  border-radius: 999px;
+  border: 1px solid #ff8f66;
+  background-color: transparent;
+  height: 30px;
+  width: 94%;
+  height: 60px;
+  color: white;
+  font-family: "Poppins", sans-serif;
+  font-size: 14px;
+  letter-spacing: 2px;
+  padding-left: 40px;
+}
+
+.form-control::placeholder {
+  letter-spacing: 2px;
+}
+
+.form-control:focus {
+  outline: none;
+}
+
+label.form-check-label {
+  margin-left: 15px;
+}
+
+input[type="checkbox"]:after {
+  width: 15px;
+  height: 15px;
+  border-radius: 15px;
+  top: -2px;
+  left: -1px;
+  position: relative;
+  background-color: #22272b;
+  content: "";
+  display: inline-block;
+  visibility: visible;
+  border: 2px solid white;
+}
+
+input[type="checkbox"]:checked:after {
+  width: 15px;
+  height: 15px;
+  border-radius: 15px;
+  top: -2px;
+  left: -1px;
+  position: relative;
+  background-color: #ff8f66;
+  content: "";
+  display: inline-block;
+  visibility: visible;
+  border: 2px solid #eb6f42;
+}
+
+.greeting {
+  margin-bottom: 40px;
+}
+
+.gambarKanan {
+  display: flex;
+  flex-direction: column;
+  /* height: 100vh; */
+  width: 50%;
+  background-image: url("../img/hero-img.png");
+  background-size: cover;
+  background-position: top;
+  background-repeat: no-repeat;
+  /* filter: blur(3px); */
+}
+
+button.btn-login {
+  margin-top: 20px;
+  padding: 15px 50px;
+  height: 60px;
+  color: white;
+  font-weight: 700;
+  background-color: #ff8f66;
+  width: 100%;
+  border: none;
+  border-radius: 999px;
+  cursor: pointer;
+}
+
+html .judulToko {
+  margin-left: 10%;
+  padding-top: 7%;
+  font-family: "Reenie Beanie", cursive;
+  display: flex;
+  flex-direction: column;
+}
+
+.judulToko h1 {
+  font-size: 80px;
+  color: #ff8f66;
+}
+
+p.desc {
+  font-size: 25px;
+  margin-top: -25px;
+  font-family: "Poppins", sans-serif;
+  font-weight: 600;
+  font-style: italic;
+}
+
+.copyright {
+  font-size: 15px;
+  font-family: "Poppins", sans-serif;
+  font-weight: 600;
+  color: #ff8f66;
+  display: flex;
+  justify-content: space-between;
+  padding: 0 10%;
+  padding-top: 55%;
+  color: #22272b;
+}
+
+.nameinput {
+  display: flex;
+}
+
+.firstname {
+  margin-right: 15px;
+}

@@ -1,0 +1,158 @@
+body {
+  font-family: "Poppins", sans-serif;
+  font-weight: 300;
+  background-color: #22272b;
+  color: white;
+}
+
+.navbar {
+  padding-top: 20px;
+}
+
+.contactus {
+  margin-top: 70px;
+}
+
+.container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 30px;
+}
+
+span.navbar-brand {
+  font-family: "Reenie Beanie", cursive;
+  font-size: 70px;
+  color: white;
+}
+
+nav.navbar {
+  background-color: #22272b;
+}
+
+.btnalign {
+  display: flex;
+  justify-content: end;
+}
+
+.menu a {
+  color: white;
+  text-decoration: none;
+  font-weight: 500;
+}
+
+a.active {
+  color: #ff8f66;
+}
+
+.mainmenu a {
+  margin-right: 15px;
+}
+
+.mainmenu {
+  margin-right: 50px;
+}
+
+.accountcart a {
+  margin-right: 15px;
+}
+
+h2.contactus {
+  color: white;
+  font-weight: 400;
+  text-align: center;
+  margin-bottom: 15px;
+}
+
+sub {
+  color: white;
+  margin-top: 25px;
+  font-weight: 400;
+  text-align: center;
+  font-size: 25px;
+  color: #ff8f66;
+  margin-bottom: 40px;
+}
+
+form {
+  margin-top: 25px;
+}
+
+.linehr {
+  display: flex;
+}
+
+.linehr hr.right {
+  margin-right: 220px;
+}
+
+hr.right,
+hr.left {
+  border: 1px solid #ff8f66;
+}
+
+hr {
+  width: 125px;
+  border: 1px solid white;
+  opacity: 1;
+}
+
+.form-contact {
+  width: 700px;
+}
+
+input {
+  cursor: text;
+}
+
+input.form-control {
+  background-color: #22272b00;
+  color: white;
+  height: 50px;
+}
+
+input.form-control:enabled {
+  background-color: #22272b00;
+  color: white;
+  box-shadow: none;
+  border: 1px solid #fcfcfc;
+}
+
+input.form-control::placeholder {
+  color: rgb(240, 240, 240);
+}
+
+textarea.form-control {
+  background-color: #22272b00;
+  color: white;
+  box-shadow: none;
+  border: 1px solid #fcfcfc;
+  resize: vertical;
+}
+
+textarea.form-control:enabled {
+  background-color: #22272b00;
+  color: white;
+  box-shadow: none;
+  border: 1px solid #fcfcfc;
+}
+
+.contact-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 700px;
+}
+
+button.btn {
+  background-color: #ff8f66;
+  padding: 10px 40px;
+  color: #22272b;
+  box-shadow: none;
+  border: none;
+  font-weight: 600;
+}
+
+button.btn:hover {
+  background-color: #ff8f66;
+}
