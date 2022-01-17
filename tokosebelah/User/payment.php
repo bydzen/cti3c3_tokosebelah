@@ -115,7 +115,7 @@ error_reporting(0);
                                     <dt>Shipping fee:</dt>
                                     <dd class="text-right text-danger ml-3">FREE</dd>
                                 </dl>
-                                <button type="submit" name="submit" onclick="deleteData(<?php echo $values['id_order'] ?>)" class="btn btn-success btn btn-main"> Make Purchase </button>
+                                <button type="submit" name="submit" onclick="deleteData(<?php echo $values['id_order'] ?>)" class="btn btn-success btn btn-main"> Checkout </button>
                                 <a href="home.php" class="btn  btn-Dark btn-square btn-main mt-2" data-abc="true">Continue Shopping</a>
 
                             </div>
