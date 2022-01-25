@@ -7,7 +7,7 @@ include('../database/config.php');
 
 <head>
     <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=0 shrink-to-fit=no">
+    <meta name="viewport" content="width=device-width, initial-scale=0">
     <title>Gallery | Toko Sebelah</title>
 
     <!-- Bootstrap -->

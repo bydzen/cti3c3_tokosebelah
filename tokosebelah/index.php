@@ -5,7 +5,7 @@
 
 <head>
     <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=0 shrink-to-fit=no">
+    <meta name="viewport" content="width=device-width, initial-scale=0">
     <title>Home | Toko Sebelah</title>
 
     <!-- Bootstrap -->
@@ -29,11 +29,12 @@
     <!-- home -->
     <div class="home" style="background-image: url(assets/img/background.png)">
         <h1 class="text">New Bag Collection</h1>
-        <center><button href="" class="tbl-shop">Shop Now</button></center>
+        <center><a href="./User/login.php"><button href="" class="tbl-shop">Shop Now</button></a></center>
     </div>
 
     <!-- Best Seller -->
 
+    <div id="#best-seller"></div>
     <div class="title1" style="margin-left:32%;">Best Seller</div>
     <div class="post-container owl-carousel">
         <?php
